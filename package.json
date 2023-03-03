@@ -1,14 +1,22 @@
 {
   "name": "support-desk",
   "version": "1.0.0",
-  "description": "support ticket app",
+  "description": "support system",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowDarsan/supportSystem.git"
+  },
+  "author": "shadowDarsan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowDarsan/supportSystem/issues"
+  },
+  "homepage": "https://github.com/shadowDarsan/supportSystem#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
