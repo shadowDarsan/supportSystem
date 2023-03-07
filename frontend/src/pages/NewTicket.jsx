@@ -66,7 +66,10 @@ function NewTicket() {
               value={product}
               onChange={(e) => setProduct(e.target.value)}
             >
-              <option value='iphone'>Iphone</option>
+              <option value=''></option>
+              <option defaultValue='iphone' value='iphone'>
+                Iphone
+              </option>
               <option value='MacBookPro'>MacBook Pro</option>
               <option value='iMac'>iMac</option>
               <option value='iPad'>iPad</option>
